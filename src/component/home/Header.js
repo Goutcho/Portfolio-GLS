@@ -9,7 +9,7 @@ const Header = () => {
       <nav className="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
         <div className="container">
           <div class="header-container">
-            <h1 className="navbar-title js-scroll"> Gustave LACAILLE </h1>
+            <h1 className="navbar-title js-scroll"> Gustave SAMUS </h1>
             <h2 className="navbar-sub-title js-scroll"> Développeur Web </h2>
           </div>
           <div className="navbar-collapse collapse justify-content-end" id="navbarDefault">
