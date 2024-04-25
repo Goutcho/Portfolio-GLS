@@ -1,196 +1,214 @@
 .education-timeline {
-    background-color: #000727;
-    padding: 1rem;
+  background-color: #000727;
+  padding: 1rem;
   }
   
   .education__planet-timeline {
-    background-color: #000727;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+  background-color: #000727;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   }
   
   .planet-timeline__image {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; /* ou 'space-around' si vous préférez */
-    width: 100%;
-    height: 100%;
-    background-color: #000727;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background-color: #000727;
   }
   
   @keyframes float {
-    0%, 100% {
-      transform: translateY(4px);
-    }
-    50% {
-      transform: translateY(-4px);
-    }
+  0%, 100% {
+    transform: translateY(4px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
   }
   
   .planet1 {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    display: flex;
-    flex-direction: row;
-    animation: float 5s ease-in-out infinite;
-    overflow: hidden;
-    filter: blur(0.58px);
-    margin-bottom: 2rem;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  animation: float 5s ease-in-out infinite;
+  overflow: hidden;
+  filter: blur(0.58px);
+  margin-bottom: 2rem;
   }
   
   @keyframes deplacerFusée {
-    0% {
-      left: 0;
-      transform: rotate(0deg);
-    }
-    100% {
-      left: 90%;
-    }
+  0% {
+    left: 0;
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 90%;
+  }
   }
   
   .p-name-planet {
-    color: white;
-    font-size: 1.5rem;
-    margin: 1rem;
-    text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  margin: 1rem;
+  text-align: center;
   }
   
   .sphere-button {
-    border-radius: 50%; /* Cela rend le bouton rond */
-    width: 40px; /* Largeur de la sphère */
-    height: 40px; /* Hauteur de la sphère */
-    background: linear-gradient(to right, rgba(0, 195, 255, 4),rgba(255, 217, 0, 1)), rgba(255, 255, 255, 0.2);
-    border: none; /* Pas de bordure */
-    color: black; /* Couleur du texte */
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 
-                0 0 20px rgb(0, 2, 102), 
-                inset 0 0 10px rgba(255, 255, 255, 0.5); /* Ombres pour l'effet brillant */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    margin-bottom: 0rem;
-    animation: sphere 7s ease-in-out infinite;
-    margin: 2rem;
+  border-radius: 50%; 
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(to right, rgba(0, 195, 255, 4),rgba(255, 217, 0, 1)), rgba(255, 255, 255, 0.2);
+  border: none;
+  color: black;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 
+        0 0 20px rgb(0, 2, 102), 
+        inset 0 0 10px rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 0rem;
+  animation: sphere 7s ease-in-out infinite;
+  margin: 2rem;
   }
   
   @keyframes sphere {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    80% {
-      transform: translateY(-2px);
-    }
+  0%, 100% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(-2px);
+  }
   }
   
   .sphere-button-div {
-    cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    transition: transform 0.2s; /* Transition pour l'effet de pression */
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  transition: transform 0.2s;
   }
   
   .sphere-button-div:hover {
-    transform: scale(1.5); /* Agrandit légèrement au survol */
+  transform: scale(1.5);
   }
   
   .bi-mortarboard {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
   }
   
   .graduate-container {
-    display: flex;
-    background-color: #00092D;
-    width: 80%;
-    height: 100%; 
-    flex-direction: row; 
-    max-width: 100%;
-    max-height: 100%;
-    border-style: solid;
-    border-color: grey;
-    border-radius: 2px;
-    align-items: center;
-    background: linear-gradient(to right, rgba(255, 255, 0, 0.2), rgba(255, 255, 155, 0.1));
-    flex-wrap: wrap;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-    background-color: #000727;
-    border-radius: 8%;
+  display: flex;
+  background-color: #00092D;
+  width: 80%;
+  height: 100%; 
+  flex-direction: row; 
+  max-width: 100%;
+  max-height: 100%;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 2px;
+  align-items: center;
+  background: linear-gradient(to right, rgba(255, 255, 0, 0.2), rgba(255, 255, 155, 0.1));
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  background-color: #000727;
+  border-radius: 8%;
   }
   
   .graduate-container-text {
-    color: white;
-    font-size: 0.8rem;
-    margin: 0rem;
-    margin-left: 2rem; 
-    margin-right: 2rem; 
-    display: flex;
-    font-size: 0.8rem;
-    flex-direction: column;
-    align-self: center;
-    height: 100%;
-    width: 100%;
+  color: white;
+  font-size: 0.8rem;
+  margin: 0rem;
+  margin-left: 2rem; 
+  margin-right: 2rem; 
+  display: flex;
+  font-size: 0.8rem;
+  flex-direction: column;
+  align-self: center;
+  height: 100%;
+  width: 100%;
   }
   
   .title-graduate-search {
-    color: #FED500;;
-    font-size: 1.15rem;
-    display: flex;
+  color: #FED500;;
+  font-size: 1.15rem;
+  display: flex;
   }
   
   .graduate-text-search-div {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
   }
   
   .text-search-graduate {
-    color: white;
-    display: flex;
-    margin: 2rem;
+  color: white;
+  display: flex;
+  margin: 2rem;
   }
   
   .graduate-container-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    background-color: #000727;
-    margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  background-color: #000727;
+  margin-bottom: 4rem;
   }
   
   .barre-jaune1 {
-    height: 2px; /* Épaisseur de la barre */
-    background-color: rgb(254, 213, 0); /* Couleur de la barre */
-    position: absolute;
-    transition: width 0.5s ease, bottom 0.5s ease, opacity 0.5s ease; /* Ajouter une transition d'opacité */
-    opacity: 0; /* La barre est initialement invisible */
+  height: 2px;
+  background-color: rgb(254, 213, 0);
+  position: absolute;
+  transition: width 0.5s ease, bottom 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
   }
 
   @keyframes flame-animation {
-    0% { transform: scale(1.5); }
-    50% { transform: scale(2); }
-    100% { transform: scale(2.5); }
+  0% { transform: scale(1.5); }
+  50% { transform: scale(2); }
+  100% { transform: scale(2.5); }
   }
   
   #flame {
-    animation: flame-animation 1s infinite;
+  animation: flame-animation 1s infinite;
   }
   
   .bi-list {
-    color: white;
-    margin: 0rem;
-    display: flex;
-    font-size: 0.8rem;
-    flex-direction: column;
-    width: 6rem;
-    height: 6rem;
-    align-self: center;
-    cursor: pointer;
-    max-width: 70px;
-    max-height: 70px;
+  color: white;
+  margin: 0rem;
+  display: flex;
+  font-size: 0.8rem;
+  flex-direction: column;
+  width: 6rem;
+  height: 6rem;
+  align-self: center;
+  cursor: pointer;
+  max-width: 70px;
+  max-height: 70px;
   }
+
+@media screen and (max-width: 768px) {
+
+  .div-name-planet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem;
+  }
+
+  .planet1 {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  }
+}

@@ -33,12 +33,15 @@
 
 .text-project-1 {
     color: white;
-    font-size: 0.8rem;
-    margin: 1rem;
+    font-size: 0.7rem;
+    margin: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-self: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1rem;
   }
 
 .project-img-1 {
@@ -51,6 +54,7 @@
     height: 250px;
     background-size: cover;
     border-radius: 20px;
+    object-fit: cover;
 
   }
 
