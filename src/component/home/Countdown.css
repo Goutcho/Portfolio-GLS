@@ -13,7 +13,8 @@
     color: #FED500;
     font-size: 2.3rem;
     font-family: 'Courier New', Courier, monospace;
-    margin: 0.5rem;
+    margin: 1rem;
+    text-align: center;
   }
   
   .title-countdown {
@@ -28,4 +29,7 @@
     margin-top: 0;
     margin-bottom: 0.4rem;
     font-style: bold;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 2rem;
   }

@@ -66,3 +66,19 @@
     border-radius: 20px;
   }
   
+
+@media screen and (max-width: 768px) {
+  
+  .projects-container-main{
+    margin: 1rem;
+  }
+
+  .title-projects {
+    padding: 2rem;
+  }
+
+  .project-img-2 {
+    margin: 1rem;
+  }
+
+}

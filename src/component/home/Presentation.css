@@ -63,3 +63,42 @@
   li {
     list-style: none;
   }
+
+  @media (max-width: 768px) {
+    .presentation-container {
+      flex: 1 0 100%;
+      width: auto;
+      height: auto;
+      align-items: center;
+    }
+
+    .presentation-container-picture {
+      margin-top: 10px;
+    }
+
+    .presentation-container-text {
+      display: block;
+      text-align: center;
+      padding: 10px;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+    }
+
+    .presentation-container-link {
+      display: flex;
+      text-align: center;
+    }
+
+    .img-presentation {
+      margin-left: 0;
+    }
+
+    .img-presentation {
+      width: 18vh;
+      height: 18vh;
+      margin-left: 20px;
+     }
+  }

@@ -1,7 +1,7 @@
 // App.js
 import React from "react";
 import "./App.css";
-import Header from "./component/home/Header.js";
+import OpenHeader from "./component/home/Header.js";
 import Countdown from "./component/home/Countdown.js";
 import Presentation from "./component/home/Presentation.js";
 import EducationTimeline from "./component/home/EducationTimeline.js";
@@ -13,7 +13,7 @@ import RocketLoader from "./component/home/RocketLoader.js";
 const App = () => {
   return (
     <div>
-      <Header />
+      <OpenHeader />
       <Countdown targetDate="2024-10-02T23:59:59" />
       <div className="separator-row-3" alt="div">
         <Presentation />
