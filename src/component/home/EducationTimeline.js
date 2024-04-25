@@ -60,7 +60,7 @@ const EducationTimeline = () => {
       <div className="ligne-droite">
         <div className="education__global">
           <div className="education__planet-timeline">
-            {showWindow && ( // Afficher cet élément seulement si showWindow est true
+            {showWindow && (
               <div className="graduate-container-div">
                 <div className="graduate-container">
                   <div className={`education-timeline ${isHovering ? "shadow-effect" : ""}`}>

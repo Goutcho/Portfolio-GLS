@@ -1,45 +1,42 @@
-/* Importation de la police depuis Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 body, html {
-  font-family: 'K2D', sans-serif; /* Utilisation d'une police personnalisée */
-  background-color: #00092D; /* Couleur de fond foncée */
+  font-family: 'K2D', sans-serif;
+  background-color: #00092D;
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: flex-start; /* Centre le contenu du body */
-  overflow-x: hidden; /* Empêche le défilement horizontal */
+  justify-content: flex-start;
+  overflow-x: hidden;
 }
 
 header {
-  width: 100%; /* Pleine largeur pour un header responsive */
+  width: 100%;
   display: flex;
-  justify-content: center; /* Centre le contenu du header */
-  margin-bottom: 1rem; /* Espace sous le header */
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
-/* Media Queries pour la gestion de différentes tailles d'écran */
 @media (max-width: 768px) {
   body, html {
-    flex-direction: column; /* Change la disposition des enfants de flex en colonne sur les petits écrans */
+    flex-direction: column;
   }
 
   header {
-    flex-direction: column; /* Assure que le header reste compact et bien organisé sur les petits écrans */
-    padding: 1rem 0; /* Ajoute de l'espace autour du contenu du header */
+    flex-direction: column;
+    padding: 1rem 0;
   }
 }
 
-/* Media Queries pour les appareils en mode paysage ou avec des hauteurs plus petites */
 @media (max-height: 500px) {
   body, html {
     flex-direction: column;
   }
 
   header {
-    padding: 0.5rem 0; /* Réduit le padding pour économiser de l'espace */
-    margin-bottom: 0.5rem; /* Réduit l'espace sous le header */
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
   }
 }

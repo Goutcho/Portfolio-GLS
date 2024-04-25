@@ -77,7 +77,7 @@ svg {
   justify-content: flex-start;
   margin-left: 3rem;
   margin-right: 1rem;
-  animation: svgfloat 4s infinite; /* Apply the svgfloat animation */
+  animation: svgfloat 4s infinite;
 }
 
 @keyframes svgfloat {
@@ -101,10 +101,10 @@ svg {
   margin-bottom: 10rem;
 }
 
-@media (max-width: 1380px) { /* Ajustez le 768px selon le point de rupture souhaité */
+@media (max-width: 1380px) {
   .separator-row-3 {
-    flex-direction: column; /* Les éléments s'empilent verticalement */
-    align-items: center; /* Alignement des éléments à gauche après le changement de direction */
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -191,5 +191,4 @@ svg {
     margin: 1rem;
     margin-bottom: 1rem;
   }
-
 }
