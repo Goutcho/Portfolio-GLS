@@ -1,0 +1,28 @@
+.ligne {
+  width: 100%;
+  height: 2px; /* Hauteur de la ligne */
+  background-color: silver; /* Couleur de la ligne */
+  position: relative; /* Pour positionner la fusée par rapport à la ligne */
+  margin-bottom: 4rem;
+  box-shadow: 0 0 10px silver; /* Ajoute une ombre floue à la ligne */
+  background-color:  #00072700;
+}
+
+.fusee {
+  width: 80px; /* Largeur de la fusée */
+  height: 80px; /* Hauteur de la fusée */
+  position: absolute;
+  rotate: 44deg; /* Pour que la fusée soit dans le bon sens */
+  bottom: -40px; /* Décale la fusée vers le bas par rapport à la ligne */
+  left: 0; /* Position de départ de la fusée */
+  animation: deplacerFusée 25s linear infinite; /* Animation, ajustez la durée selon le besoin */
+}
+
+@keyframes deplacerFusée {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%; /* Fait déplacer la fusée jusqu'à la fin de la ligne */
+  }
+}

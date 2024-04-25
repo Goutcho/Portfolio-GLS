@@ -1,0 +1,18 @@
+.skills-galaxy {
+    width: 100%;
+    height: 100%; 
+    position: relative; 
+    overflow: hidden; 
+    align-items: flex-start;
+    margin: 0%;
+  }
+
+  .title-galaxy {
+    color: #FED500;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+
+  
