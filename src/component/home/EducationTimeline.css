@@ -1,6 +1,5 @@
 .education-timeline {
   background-color: #000727;
-  padding: 1rem;
   }
   
   .education__planet-timeline {
@@ -201,14 +200,16 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 1rem;
+  margin: 10px;
   }
 
   .planet1 {
   width: 100px;
   height: 100px;
   object-fit: cover;
-  margin: 0;
-  padding: 0;
+  }
+
+  .planet-timeline__image {
+    margin-bottom: 5rem;
   }
 }
