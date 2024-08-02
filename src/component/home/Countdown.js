@@ -31,7 +31,7 @@ const Countdown = ({ targetDate }) => {
     <div class="time-container">
       <h1 class="title-countdown">Compte à rebours</h1>
       <p class="text-countdown">* Temps avant la fin de mon contrat actuel.</p>
-      <h2 class="countdown">Heures // {formatTime(timeLeft)}</h2>
+      <h2 class="countdown">Heures ? {formatTime(timeLeft)}</h2>
     </div>
   );
 };

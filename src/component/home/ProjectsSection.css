@@ -18,7 +18,7 @@
 
 .projects-container-1 {
     display: flex;
-    height: 680px;
+    height: 720px;
     width: 420px;
     flex-direction: column;
     border: solid 1px gray;
@@ -29,11 +29,12 @@
     gap: 1rem;
     position: relative;
     margin: 1rem;
+    padding: 1rem;
   }
 
 .text-project-1 {
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin: 0;
     text-align: center;
     display: flex;
@@ -75,6 +76,7 @@
   
   .projects-container-main{
     margin: 1rem;
+    padding: 1rem;
   }
 
   .title-projects {

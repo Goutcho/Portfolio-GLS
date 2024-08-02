@@ -149,7 +149,8 @@
   .text-search-graduate {
   color: white;
   display: flex;
-  margin: 2rem;
+  padding: 5rem;
+  font-size: 1rem;
   }
   
   .graduate-container-div {

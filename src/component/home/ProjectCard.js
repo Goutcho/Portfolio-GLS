@@ -650,20 +650,17 @@ const ProjectCard = () => {
       <div className="project-container-text">
         <h2 className="title-project-search"> Ma Recherche Prioritaire En Cours : </h2>
         <h2 className="title-project-search">
-          <i class="bi bi-exclamation-triangle"> </i> Contrat D'Apprentissage Sur 2 Ans En Alternance{" "}
+          <i class="bi bi-exclamation-triangle"> </i> Contrat CDD ou MISSIONS FreeLance{" "}
         </h2>
         <div className="text-search-div">
           <p className="text-search">
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non velit quis ipsum elementum porttitor. Nam at orci at mi posuere tempus
-            vel feugiat mauris. Cras at quam sodales, mattis sapien eu, hendrerit justo. Vestibulum ante ipsum primis in faucibus orci luctus et
-            ultrices posuere cubilia curae; Aenean ex est, varius eget urna sit amet, ullamcorper dictum mauris. Nullam tempus convallis aliquet.
-            Maecenas vitae maximus elit. Maecenas posuere erat at porta efficitur. Vivamus dictum urna nec tristique sollicitudin.
-            <br></br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non velit quis ipsum elementum porttitor. Nam at orci at mi posuere tempus
-            vel feugiat mauris. Cras at quam sodales, mattis sapien eu, hendrerit justo. Vestibulum ante ipsum primis in faucibus orci luctus et
-            ultrices posuere cubilia curae; Aenean ex est, varius eget urna sit amet, ullamcorper dictum mauris. Nullam tempus convallis aliquet.
-            Maecenas vitae maximus elit. Maecenas posuere erat at porta efficitur. Vivamus dictum urna nec tristique sollicitudin.{" "}
+            Actuellement à la recherche de nouvelles opportunités, je suis ouvert à des missions freelance ou à un contrat à durée déterminée (CDD)
+            dans le développement web et logiciel. Avec une solide expérience en HTML, CSS, JavaScript, Python et PHP, acquise lors de ma formation à
+            la Licence Professionnelle Développement Web de CY Cergy Paris Université, je suis prêt à mettre mes compétences au service de projets
+            variés. Mon parcours inclut également une spécialisation en DevOps, ce qui me permet d'assurer une intégration continue et un déploiement
+            automatisé efficaces. Je suis passionné par la création de solutions numériques innovantes et je cherche à collaborer avec des entreprises
+            dynamiques qui valorisent la créativité et l'expertise technique.{" "}
           </p>
         </div>
       </div>
